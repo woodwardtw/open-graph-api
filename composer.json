@@ -1,0 +1,5 @@
+{
+    "require": {
+        "fusonic/opengraph": "@dev"
+    }
+}

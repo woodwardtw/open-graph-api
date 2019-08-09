@@ -1,0 +1,185 @@
+[13-Jul-2019 13:16:47 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 3:  in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/open-graph-api/vendor/fusonic/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[14-Jul-2019 14:31:15 UTC] PHP Warning:  preg_match(): Compilation failed: nothing to repeat at offset 0 in /home/bionicte/public_html/tools/open-graph-api/index.php on line 15
+[14-Jul-2019 14:31:29 UTC] PHP Warning:  preg_match(): Compilation failed: nothing to repeat at offset 0 in /home/bionicte/public_html/tools/open-graph-api/index.php on line 15
+[14-Jul-2019 14:32:14 UTC] PHP Warning:  preg_match(): Compilation failed: nothing to repeat at offset 21 in /home/bionicte/public_html/tools/open-graph-api/index.php on line 15
+[14-Jul-2019 14:32:20 UTC] PHP Warning:  preg_match(): Compilation failed: nothing to repeat at offset 21 in /home/bionicte/public_html/tools/open-graph-api/index.php on line 15
+[15-Jul-2019 13:52:01 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 1: Protocol "ttps" not supported or disabled in libcurl in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bioni in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 15:17:00 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: cnn in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ope in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:21:21 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: cn in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/open in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:21:21 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: cn in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/open in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:21:21 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: cnn in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ope in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:21:21 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: cnn in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ope in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:04 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: fl in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/open in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:04 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: fli in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ope in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:04 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: fli in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ope in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:04 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: flick in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/o in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:05 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: flick in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/o in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:05 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: flickr in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:05 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: flickr in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/tools/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[15-Jul-2019 16:22:06 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 6: Could not resolve host: flickr.co in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/bionicte/public_html/too in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[31-Jul-2019 13:59:09 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 13:59:09 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 13:59:09 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 13:59:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 13:59:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 17:58:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 17:58:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 17:58:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 17:58:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[31-Jul-2019 17:58:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 11:46:50 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 11:46:50 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 11:46:50 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 11:46:50 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 11:46:50 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 13:58:57 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 13:58:57 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 13:58:57 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 13:58:57 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 15:20:56 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 15:20:56 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 15:20:56 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 15:20:56 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 18:36:32 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 18:36:32 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 18:36:32 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[01-Aug-2019 18:36:32 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:24:51 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:25:30 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:25:49 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:26:30 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:26:32 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:27:00 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:27:36 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:28:01 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:29:56 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:30:02 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[08-Aug-2019 20:44:01 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:21:18 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:22:22 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:22:31 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:22:47 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:23:16 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:24:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/bionicte/public_html/tools/open-graph-api/index.php on line 48
+[09-Aug-2019 01:24:32 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:25:10 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:25:14 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 01:25:21 UTC] PHP Fatal error:  Cannot use lexical variable $eventName as a parameter name in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/Emitter.php on line 49
+[09-Aug-2019 16:07:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 7: Failed to connect to foo.com port 443: Connection refused in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[09-Aug-2019 16:07:48 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 7: Failed to connect to foo.com port 443: Connection refused in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[09-Aug-2019 16:08:14 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 7: Failed to connect to foo.com port 443: Connection refused in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
+[09-Aug-2019 16:08:58 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\AdapterException: cURL error 7: Failed to connect to foo.com port 443: Connection refused in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php:112
+Stack trace:
+#0 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php(91): GuzzleHttp\Adapter\Curl\CurlAdapter->handleError(Object(GuzzleHttp\Adapter\Transaction), Array, Resource id #47)
+#1 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php(34): GuzzleHttp\Adapter\Curl\CurlAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#2 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(193): GuzzleHttp\Adapter\StreamingProxyAdapter->send(Object(GuzzleHttp\Adapter\Transaction))
+#3 /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Client.php(156): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#4 /home/ in /home/bionicte/public_html/tools/open-graph-api/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php on line 115
